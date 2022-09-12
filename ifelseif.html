@@ -6,15 +6,20 @@
 </head>
 <body>
 <script>
-
-    let userName = prompt("Tên Tao Là Gì");
-    if ( userName == "Đạt Hoàng") {
-        alert(" ĐÚng ")
+    let userName = prompt("Tên" , '');
+    if (userName== "Tên") {
+        let pass=prompt('Password?' , '');
+        if (pass== 'aaa') {
+            alert("Hello")
+        } else if (pass==null) {
+            alert("Mời")
+        } else {
+            alert("Sai RỒi");
+        }
     } else if (userName==null) {
-        alert( " Sai ")
+        alert('Mờii')
     } else {
-        alert("áđá")
-
+        alert("Không")
     }
 </script>
 </body>
